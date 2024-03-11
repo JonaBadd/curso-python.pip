@@ -44,7 +44,7 @@ def check_rules(user_option, computer_option, user_wins, computer_wins):
       user_wins += 1
     else:
       print('piedra gana a tijera')
-      print('computer gano!')
+      print('computer gano!') 
       computer_wins += 1
   return user_wins, computer_wins
 
