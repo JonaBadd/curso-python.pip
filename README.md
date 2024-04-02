@@ -15,3 +15,11 @@ source myenv/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
 ```
+
+En casó de ser necesario instalar un entorno virtual, puede utilizar los siguientes comandos:
+
+
+```sh
+sudo apt-get install python3-pip
+sudo apt install python3-venv
+```
